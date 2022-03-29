@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #22283e;
+}
+.logo {
+  margin: 30px auto 0 auto;
+}
+form {
+  width: 400px;
+  margin: 100px auto 0 auto;
+  padding: 20px;
+  border-top: 1px solid rgb(15, 64, 83);
+  border-right: 2px solid rgb(15, 64, 83);
+  border-left: 2px solid rgb(15, 64, 83);
+  border-bottom: 4px solid rgb(15, 64, 83);
+  justify-content: center;
+  align-items: center;
+}
+legend {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+p {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+input {
+  /* width: 100%; */
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(15, 64, 83);
+  color: white;
+}
+.select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+span {
+  color: white;
+}
+.btn {
+  font-size: 16px;
+  text-align: center;
+  width: 43%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+  background-color: rgb(15, 64, 83);
+  transition: all 0.3s ease-out;
+  box-shadow: -1px -2px 2px rgb(73, 180, 223), -1px -2px 2px rgb(73, 180, 223),
+    -1px -2px 2px rgb(73, 180, 223);
+  transition: 0.13s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  box-shadow: none;
+  transform: translate3d(0px, 0px, 0px);
+}
+.btn:active {
+  color: white;
+  box-shadow: none;
+  transform: translate3d(0px, 0px, 0px);
+}
+.btn:focus {
+  color: white;
+  box-shadow: none;
+  transform: translate3d(0px, 0px, 0px);
+}
+.container {
+  width: 400px;
+  margin: 100px auto 0 auto;
+  padding: 20px;
+  border-top: 1px solid rgb(15, 64, 83);
+  border-right: 2px solid rgb(15, 64, 83);
+  border-left: 2px solid rgb(15, 64, 83);
+  border-bottom: 4px solid rgb(15, 64, 83);
+  justify-content: center;
+  align-items: center;
+}
